@@ -3,6 +3,12 @@ layout: default
 title: Home
 ---
 
+[Work]({{ "/work/" | relative_url }})
+[About]({{ "/about/" | relative_url }})
+[Community]({{ "/community/" | relative_url }})
+[Contact]({{ "/contact/" | relative_url }})
+[Download Resume]({{ "/assets/resume.pdf" | relative_url }})
+
 ## Helping organizations deliver with confidence, even in the most complex and regulated environments.
 
 Executive leader in cloud, AI, and transformation — trusted to turn risk into results with clarity and vision.
@@ -21,5 +27,10 @@ Executive leader in cloud, AI, and transformation — trusted to turn risk into 
 - **Community**: District IT Manager & Volunteer Firefighter, San Juan Island Fire & Rescue — modernizing tech to strengthen readiness and public safety.
 
 ---
+See More
 
-See more: [Work](/work/) · [About](/about/) · [Community](/community/) · [Contact](/contact/)
+[Work]({{ "/work/" | relative_url }})
+[About]({{ "/about/" | relative_url }})
+[Community]({{ "/community/" | relative_url }})
+[Contact]({{ "/contact/" | relative_url }})
+[Download Resume]({{ "/assets/resume.pdf" | relative_url }})
