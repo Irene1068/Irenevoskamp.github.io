@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Contact
 permalink: /contact/
 ---
@@ -16,4 +16,3 @@ Use the form below to reach me directly.
   <p><button type="submit">Send</button></p>
 </form>
 
-Prefer email? <a href="mailto:irene@voskamp.org">irene@voskamp.org</a>
