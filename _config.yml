@@ -14,19 +14,6 @@ header_pages:
   - community.md
   - contact.md
 
-# Build settings (safe defaults)
-markdown: kramdown
-kramdown:
-  input: GFM
-  hard_wrap: false
-
-# Optional: if/when you add a custom domain, set your canonical URL:
-# url: "https://voskamp.org"
-
-# For user/ORG pages like irene1068.github.io, keep baseurl empty:
-baseurl: ""
-
-# Optional default layout for pages (then you can omit 'layout: page' in each file)
 # Make sure you have _layouts/page.html
 defaults:
   - scope:
@@ -34,4 +21,3 @@ defaults:
       type: "pages"
     values:
       layout: page
-      
