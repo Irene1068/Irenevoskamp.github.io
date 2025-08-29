@@ -1,12 +1,36 @@
+# Site identity
 title: Irene Voskamp
 description: Strategy, Transformation, and Responsible AI
+
+# Theme (keep these)
 remote_theme: pages-themes/modernist@v0.2.0
 plugins:
-- jekyll-remote-theme 
+  - jekyll-remote-theme
 
-# Add a top nav:
+# Top navigation (files must exist at repo root)
 header_pages:
   - about.md
   - work.md
   - community.md
   - contact.md
+
+# Build settings (safe defaults)
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# Optional: if/when you add a custom domain, set your canonical URL:
+# url: "https://voskamp.org"
+
+# For user/ORG pages like irene1068.github.io, keep baseurl empty:
+baseurl: ""
+
+# Optional default layout for pages (then you can omit 'layout: page' in each file)
+# Make sure you have _layouts/page.html
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: page
