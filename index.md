@@ -35,7 +35,7 @@ title: Home
 - Expert in **Responsible AI**, creating frameworks that accelerate approvals and reduce risk.
 - Led high-ambiguity programs with 100+ stakeholders, **aligning C-suites, regulators, and engineers**.
 - Innovator in **Cybersecurity & Privacy** (patents in supply chain attestation; Director of Counterintelligence Operational Analysis Center for DOE; MSFT AI-powered Transparency Logs; McAfee’s first enterprise privacy framework).
-- **Community**: District IT Manager & Volunteer Firefighter, San Juan Island Fire & Rescue — modernizing tech to strengthen readiness and public safety.
+- Community: **District IT Manager & Volunteer Firefighter**, San Juan Island Fire & Rescue — modernizing tech to strengthen readiness and public safety.
 
 ---
 See More
@@ -43,5 +43,3 @@ See More
 [Work]({{ "/work/" | relative_url }})
 [About]({{ "/about/" | relative_url }})
 [Community]({{ "/community/" | relative_url }})
-[Contact]({{ "/contact/" | relative_url }})
-[Download Resume]({{ "/assets/resume.pdf" | relative_url }})
