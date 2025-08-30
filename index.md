@@ -10,9 +10,7 @@ title: Home
 [Download Resume]({{ "/assets/resume.pdf" | relative_url }})
 
 ## Helping organizations deliver with confidence, even in the most complex and regulated environments.
-<p align="center">
-  <img src="{{ "/assets/profile-small.jpeg" | relative_url }}" alt="Headshot of Irene Voskamp" width="200">
-</p>
+![Headshot of Irene Voskamp]({{ "/assets/profile.jpg" | relative_url }}){: .profile-pic }
 
 Executive leader in cloud, AI, and transformation — trusted to turn risk into results with clarity and vision.
 
