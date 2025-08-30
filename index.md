@@ -21,12 +21,14 @@ title: Home
       <a class="btn ghost" href="{{ "/contact/" | relative_url }}">Contact</a>
   </div>
 
+  </div>
+
   <div class="hero-pic">
     <img src="{{ "/assets/profile-small.jpeg" | relative_url }}" alt="Headshot of Irene Voskamp">
   </div>
 </div>
 
-[Download Resume](assets/resume.pdf){: .btn } [LinkedIn](https://www.linkedin.com/in/irenevoskamp){: .btn } [Contact](/contact/){: .btn }
+##[Download Resume](assets/resume.pdf){: .btn } [LinkedIn](https://www.linkedin.com/in/irenevoskamp){: .btn } [Contact](/contact/){: .btn }
 
 ---
 
