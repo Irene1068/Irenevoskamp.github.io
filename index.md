@@ -14,6 +14,11 @@ title: Home
     ## Helping organizations deliver with confidence, even in the most complex and regulated environments.
 
     Executive leader in cloud, AI, and transformation — trusted to turn risk into results with clarity and vision.
+
+    <div class="cta-row">
+      <a class="btn" href="{{ "/assets/resume.pdf" | relative_url }}" target="_blank">Download Resume</a>
+      <a class="btn ghost" href="https://www.linkedin.com/in/irenevoskamp" target="_blank">LinkedIn</a>
+      <a class="btn ghost" href="{{ "/contact/" | relative_url }}">Contact</a>
   </div>
 
   <div class="hero-pic">
