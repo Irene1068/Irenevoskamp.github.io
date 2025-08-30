@@ -1,19 +1,19 @@
 <style>
   .hero-section {
     display: flex;
-    align-items: center;   /* vertically center text & image */
-    gap: 2rem;             /* space between text and image */
-    flex-wrap: wrap;       /* allows stacking on small screens */
+    align-items: center;   /* vertically center */
+    gap: 2rem;
+    flex-wrap: wrap;       /* stack on small screens */
     margin-bottom: 2rem;
   }
 
   .hero-text {
-    flex: 1;               /* text takes remaining space */
+    flex: 1;
   }
 
   .hero-pic {
-    flex: 0 0 25%;         /* image takes up to 25% width */
-    max-width: 200px;      /* optional: cap image size */
+    flex: 0 0 25%;
+    max-width: 200px;
   }
 
   .hero-pic img {
@@ -22,7 +22,33 @@
     border-radius: 8px;
   }
 
-  /* On small screens, make text and image stack */
+  .cta-row {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 10px 16px;
+    background: #1f4b99;
+    color: #fff !important;
+    border-radius: 6px;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .btn:hover {
+    background: #16396f;
+  }
+
+  .btn.ghost {
+    background: transparent;
+    color: #1f4b99 !important;
+    border: 2px solid #1f4b99;
+  }
+
   @media (max-width: 600px) {
     .hero-section {
       flex-direction: column;
@@ -30,8 +56,11 @@
     }
     .hero-pic {
       flex: 0 0 auto;
-      max-width: 60%;   /* bigger image on mobile */
+      max-width: 60%;
       margin: 0 auto;
+    }
+    .cta-row {
+      justify-content: center;
     }
   }
 </style>
