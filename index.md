@@ -9,12 +9,17 @@ title: Home
 [Contact]({{ "/contact/" | relative_url }})
 [Download Resume]({{ "/assets/resume.pdf" | relative_url }})
 
-## Helping organizations deliver with confidence, even in the most complex and regulated environments.
+<div class="hero-section">
+  <div class="hero-text">
+    ## Helping organizations deliver with confidence, even in the most complex and regulated environments.
 
-<img src="{{ "/assets/profile-small.jpeg" | relative_url }}" 
-     alt="Headshot of Irene Voskamp" 
-     class="profile-pic">
-Executive leader in cloud, AI, and transformation — trusted to turn risk into results with clarity and vision.
+    Executive leader in cloud, AI, and transformation — trusted to turn risk into results with clarity and vision.
+  </div>
+
+  <div class="hero-pic">
+    <img src="{{ "/assets/profile-small.jpeg" | relative_url }}" alt="Headshot of Irene Voskamp">
+  </div>
+</div>
 
 [Download Resume](assets/resume.pdf){: .btn } [LinkedIn](https://www.linkedin.com/in/irenevoskamp){: .btn } [Contact](/contact/){: .btn }
 
