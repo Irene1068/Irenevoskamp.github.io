@@ -4,6 +4,16 @@
     max-width: 25%;
     height: auto;
     margin: 0 0 1rem 1rem; /* space between image & text */
-    border-radius: 8px;    /* optional: rounded corners */
+    border-radius: 8px;    /* optional rounded corners */
+  }
+
+  /* On screens narrower than 600px, stop floating and make full-width */
+  @media (max-width: 600px) {
+    .profile-pic {
+      float: none;
+      display: block;
+      max-width: 50%;      /* image up to half the screen */
+      margin: 0 auto 1rem; /* center it with space below */
+    }
   }
 </style>
