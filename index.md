@@ -6,8 +6,6 @@ title: Home
 [Work]({{ "/work/" | relative_url }})
 [About]({{ "/about/" | relative_url }})
 [Community]({{ "/community/" | relative_url }})
-[Contact]({{ "/contact/" | relative_url }})
-[Download Resume]({{ "/assets/resume.pdf" | relative_url }})
 
 <div class="hero-section">
   <div class="hero-text">
