@@ -28,8 +28,6 @@ title: Home
   </div>
 </div>
 
-##[Download Resume](assets/resume.pdf){: .btn } [LinkedIn](https://www.linkedin.com/in/irenevoskamp){: .btn } [Contact](/contact/){: .btn }
-
 ---
 
 ### Highlights
